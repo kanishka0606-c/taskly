@@ -1,4 +1,4 @@
-const BASE = "http://localhost:5001/api";
+const BASE = "https://taskly-41ok.onrender.com/api";
 
 export async function api(path, method = "GET", body) {
   const token = localStorage.getItem("token");
